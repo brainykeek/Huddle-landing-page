@@ -13,10 +13,16 @@
     box-sizing: border-box;
 }
 
+.html {
+    font-size: 62.5%;
+}
+
 
 body {
+    font-family: 'Open Sans';
     font-size: 18px;
 }
+
 
 .hero_section {
     background-image: url(images/bg-hero-desktop.svg);
@@ -47,3 +53,38 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
+
+.main_container {
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+
+}
+
+.main_text {
+    width: 50%;
+}
+
+.main_text h1 {
+    font-size: 45px;
+    font-family: 'Poppins';
+    color: var(--very-dark-cyan);
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.main_text p {
+    width: 79%;
+    color: var(--very-dark-cyan);
+}
+
+
+.main_image {
+    width: 50%;
+}
+
+.mockup_img {
+    width: 100%;
+}
+
