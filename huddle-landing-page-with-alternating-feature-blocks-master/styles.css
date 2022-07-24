@@ -1,3 +1,14 @@
+/* 
+
+---01 TYPOGRAPHY SYSTEM
+
+- FONT SIZES (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
 
 :root {
@@ -52,39 +63,67 @@ body {
     box-shadow: rgb(0 0 0 / 8%) 0px 15px 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    transition: all ease-in-out 1s; 
 }
+
+.btn:hover {
+    color: var(--grayish-blue);
+    cursor: pointer;
+}
+
 
 .main_container {
     display: flex;
     width: 100%;
     margin-top: 60px;
     align-items: center;
-
 }
 
 .main_text {
-    width: 50%;
+    width: 45%;
 }
 
 .main_text h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Poppins';
     color: var(--very-dark-cyan);
     width: 80%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .main_text p {
-    width: 79%;
+    width: 90%;
+    font-size: 18px;
     color: var(--very-dark-cyan);
+    font-weight: 400;
+    margin-bottom: 35px;
 }
 
-
 .main_image {
-    width: 50%;
+    width: 55%;
 }
 
 .mockup_img {
     width: 100%;
 }
+
+.main_btn {
+    background-color: var(--pink);
+    padding: 18px;
+    width: 280px;
+    border: none;
+    border-radius: 45px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: var(--very-pale-cyan);
+    transition: all ease-in-out 1s;
+}
+
+.main_btn:hover {
+    color: var(white);
+    cursor: pointer;
+    background-color: rgba(255, 82, 191, 0.5)
+}
+
+
 
