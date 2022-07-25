@@ -42,6 +42,7 @@ body {
     background-size: cover;
     background-color: var(--very-pale-cyan);
     padding: 60px;
+    margin-bottom: 96px;
 }
 
 .logo {
@@ -126,4 +127,46 @@ body {
 }
 
 
+/* FEATURES SECTION ONE */
 
+.section_features {
+    padding: 96px 0;
+    display: grid;
+    gap: 48px;
+}
+
+.feature_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 32px 80px 64px;
+    gap: 96px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.features_textbox {
+    padding: 32px;
+    display: grid;
+    gap: 20px;
+}
+
+.feature_title {
+    font-family: 'Poppins';
+    color: var(--very-dark-cyan);
+}
+
+.feature_text {
+    font-family: 'Open Sans';
+    color: var(--grayish-blue);
+}
+
+.feature_img {
+    width: 100%;
+}
