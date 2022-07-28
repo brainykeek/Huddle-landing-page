@@ -170,3 +170,32 @@ body {
 .feature_img {
     width: 100%;
 }
+
+
+/* PRACTICE FOOTER */
+
+footer {
+    background-color: var(--very-dark-cyan);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 14px;
+}
+
+footer .contact {
+    width: 100%;
+    margin-right: 48px;
+}
+
+footer .contact p {
+    display: flex;
+    margin: 20px 0;
+    align-items: flex-start;
+}
+
+footer .contact p img {
+    height: 14px;
+    margin-right: 16px;
+}
