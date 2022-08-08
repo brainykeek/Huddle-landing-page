@@ -108,7 +108,7 @@ body {
     width: 100%;
 }
 
-.main_btn {
+.main_btn, .cta_btn {
     background-color: var(--pink);
     padding: 18px;
     width: 280px;
@@ -120,7 +120,7 @@ body {
     transition: all ease-in-out 1s;
 }
 
-.main_btn:hover {
+.main_btn:hover, .cta_btn:hover {
     color: var(white);
     cursor: pointer;
     background-color: rgba(255, 82, 191, 0.5)
@@ -175,6 +175,37 @@ body {
 
 
 /* CTA BOX */
+
+
+.cta_center {
+    text-align: center;
+}
+
+.cta_box {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 80px 0;
+    padding: 80px;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+.small_box {
+    display: inline-block;
+    position: relative;margin-bottom: -50%;
+    z-index: 1;
+}
+
+.cta_h2 {
+    font-size: 32px;
+
+}
+
+.cta_btn {
+    margin-top: 48px;
+    font-size: 18px;
+    width: 400px;
+}
 
 
 
@@ -265,7 +296,9 @@ body {
 }
 
 .footer_socials {
-    padding: 64px;
+    padding: 64px 64px 64px 0;
+    margin-right: 100px;
+    
 }
 
 .social_links {
@@ -273,6 +306,20 @@ body {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    gap: 20px;
+}
+
+.copyright_container {
+    background-color: var(--very-dark-cyan);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 96px;
+    height: 100px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 14px;
 }
 
 
