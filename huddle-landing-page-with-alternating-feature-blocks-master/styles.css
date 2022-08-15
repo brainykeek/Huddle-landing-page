@@ -386,6 +386,7 @@ nav {
 
     .hero_section {
         width: 1300px;
+        height: 230vh;
         padding: 40px;
         background-image: url(images/bg-hero-mobile.svg);
         flex-direction: column;
@@ -397,26 +398,44 @@ nav {
 
     .main_container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .main_text {
         margin-top: 100px;
+        width: 100%;
     }
 
     .main_text h1 {
-        font-size: 64px;
+        font-size: 86px;
         max-width: 100%;
         text-align: center;
         
     }
 
     .main_text p {
-        font-size: 36px;
-        max-width: 100%;
-        width: 68%;
+        font-size: 44px;
         text-align: center;
-        
+        padding: 0 190px;
+    }
+    
+    .main_image {
+        width: 900px;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .second_btn {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn.secondary {
+        width: 400px;
+        height: 60px;
+        font-size: 24px;
+        color: #fff;
     }
 }
 
